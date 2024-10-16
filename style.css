@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+body{
+    background-color: rgb(27, 27, 33);
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 5px;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+.ri-menu-line{
+    /* justify-content: flex-end;
+    justify-items: flex-end;
+    align-items: end;
+    float: right; */
+    /* position: absolute; */
+    /* float: right; */
+}
+
+#layout{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+    background-color: rgb(24, 92, 228);
+    width: 33%;
+    border-radius: 20px;
+    color: aliceblue;
+    height: 250px;
+    /* padding-left: 30px; */
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.newcontainer{
+}
+
+.input{
+    align-items:center;    
+    border-radius: 10px;
+    background-color: whitesmoke;
+    /* margin: 100px; */
+    /* margin-left: 25px; */
+    height: 100px;
+    width: 85%;
+    /* margin-left: ; */
+    /* align-self: flex-start; */
+    justify-content: center;
+    /* align-content: first baseline; */
+}
+
+.button{
+    background-color: #fffb1c;
+    margin: 10px;
+    /* padding: 20px; */
+    border-radius: 7px;
+    padding: 10px 15px 10px 15px ;
+    font-size: 20px;
+    align-self: flex-start;
+    margin: 0px 0px 20px 30px;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    box-shadow: 50px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: black;
+    color: yellow
+}
+
+h2{
+    align-self: flex-start;
+    margin-left: 30px;
+}
+
+.input_title{
+    padding: 10px 0px 10px 0px;
+    border-radius: 8px;
+    border: 2px solid yellow;
+    align-self:flex-start;
+    /* align-items:flex-start; */
+    /* justify-content: left; */
+    margin: 30px 0px 0px 30px;
+}
